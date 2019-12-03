@@ -1,0 +1,49 @@
+.form-group {
+  width: 100%;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+.wrapper-for-input {
+  width: 60%;
+  margin: auto;
+}
+
+.wrapper-for-input h2 {
+    text-align: center;
+}
+
+input {
+  margin: 1em 0;
+}
+
+/* #input {
+    text-align: center;
+}
+
+#input label{
+    float: left;
+    text-align: right;
+}
+
+#input input {
+    float: left;
+} */
+
+#filter-input {
+  background-color: lightgray;
+  padding: 1em;
+}
+
+.wrapper h2 {
+  text-align: center;
+}
+
+.ingredient-input {
+  margin-top: 1em;
+  width: 70%;
+  display: inline-block;
+}
