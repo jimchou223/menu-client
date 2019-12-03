@@ -162,7 +162,7 @@ filterInput.addEventListener('submit', (e) => {
     if (filters.filters.length !== 0) {
         e.preventDefault()
         $.ajax({
-            url: 'http://localhost:3000/search',
+            url: 'https://menu-server-jim.herokuapp.com/search',
             type: 'POST',
             dataType: 'json',
             contentType: "application/json; charset=utf-8",
