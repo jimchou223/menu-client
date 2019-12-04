@@ -47,3 +47,25 @@ input {
   width: 70%;
   display: inline-block;
 }
+
+.detail {
+  font-size: 0.8em; 
+  margin-left: 1em;
+}
+
+.dishname {
+  /* margin-top: 1em;
+  padding-left: 1em;  */
+  font-size: 1.5em;
+}
+
+.dishname-no-i {
+  /* margin-top: 1em; */
+  padding-left: 0.55em;
+  font-size: 1.5em;
+}
+
+.icon {
+  color: red;
+  padding-top: 0.5em;
+}
