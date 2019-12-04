@@ -136,9 +136,9 @@ function showResult(arr, chosenSet, uniqueArr) {
     arr.forEach((el) => {
         targetArea = document.querySelector(`.result-${el.set}`)
         if (el.ok) {
-            targetArea.innerHTML += `<div><p style="margin-top: 1em; padding-left: 1em; font-size: 1.5em;" class="card-text">${el.index}. ${el.name} <small style="font-size: 0.5em">Ingredient: ${el.ingredients}</small></p></div>`
+            targetArea.innerHTML += `<div><p style="margin-top: 1em; padding-left: 1em; font-size: 1.5em;" class="card-text">${el.index}. ${el.name}</p> <p style="font-size: 0.8em; margin-left: 2em;">Ingredient: ${el.ingredients}</p></div>`
         } else {
-            targetArea.innerHTML += `<div><p style="margin-top: 1em; font-size: 1.5em;" class="card-text"><i style="color: red;" class="fas fa-skull-crossbones"></i> ${el.index}. ${el.name} <small style="font-size: 0.5em;">Ingredient: ${el.ingredients}<small></p></div>`
+            targetArea.innerHTML += `<div><p style="margin-top: 1em; font-size: 1.5em;" class="card-text"><i style="color: red;" class="fas fa-skull-crossbones"></i> ${el.index}. ${el.name}</p> <p style="font-size: 0.8em; margin-left: 2em;">Ingredient: ${el.ingredients}<p></div>`
         }
     })
 }
