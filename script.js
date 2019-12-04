@@ -138,7 +138,7 @@ function showResult(arr, chosenSet, uniqueArr) {
         if (el.ok) {
             targetArea.innerHTML += `<div><p style="margin-top: 1em; padding-left: 1em; font-size: 1.5em;" class="card-text">${el.index}. ${el.name}</p> <p style="font-size: 0.8em; margin-left: 2em;">Ingredient: ${el.ingredients}</p></div>`
         } else {
-            targetArea.innerHTML += `<div><i style="color: red;" class="fas fa-skull-crossbones"></i><p style="margin-top: 1em; font-size: 1.5em;" class="card-text"> ${el.index}. ${el.name}</p> <p style="font-size: 0.8em; margin-left: 2em;">Ingredient: ${el.ingredients}<p></div>`
+            targetArea.innerHTML += `<div><i style="color: red; display: inline;" class="fas fa-skull-crossbones"></i><p style="display: inline; font-size: 1.5em;" class="card-text"> ${el.index}. ${el.name}</p> <p style="font-size: 0.8em; margin-left: 2em;">Ingredient: ${el.ingredients}<p></div>`
         }
     })
 }
