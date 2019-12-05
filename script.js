@@ -136,7 +136,7 @@ function showResult(arr, chosenSet, uniqueArr) {
     arr.forEach((el) => {
         targetArea = document.querySelector(`.result-${el.set}`)
         if (el.ok) {
-            targetArea.innerHTML += `<div><div><p class="card-text dishname-no-i">${el.index}. ${el.name}</p></div> <p class="detail">${el.ingredients}</p></div>`
+            targetArea.innerHTML += `<div><div><p class="card-text dishname-no-i">${el.category}. ${el.name}</p></div> <p class="detail">${el.ingredients}</p></div>`
         } else {
             targetArea.innerHTML += `<div><div style="display: flex;"><i class="fas fa-skull-crossbones icon"></i><p class="card-text dishname">${el.index}. ${el.name}</p></div> <p class="detail">${el.ingredients}<p></div>`
         }
@@ -162,6 +162,7 @@ filterInput.addEventListener('submit', (e) => {
     if (filters.filters.length !== 0) {
         e.preventDefault()
         $.ajax({
+            // url: 'http://localhost:3000/search',
             url: 'https://menu-server-jim.herokuapp.com/search',
             type: 'POST',
             dataType: 'json',
