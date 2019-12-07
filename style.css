@@ -65,7 +65,12 @@ input {
   font-size: 1.5em;
 }
 
-.icon {
+.icon-danger {
   color: red;
+  padding-top: 0.5em;
+}
+
+.icon-warning {
+  color: orange;
   padding-top: 0.5em;
 }

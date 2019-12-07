@@ -25,13 +25,23 @@
                 <input type="text" id="chosen-set" class="form-control">
             </div>
 
-            <div class="form-group">
-                <label for="ingredient-input">Ingredient</label>
-                <button id="filter-new-row" class="btn btn-info">Add</button>
-                <button id="filter-remove-row" class="btn btn-secondary">Remove</button>
+            <div id="danger-form" class="form-group">
+                <label for="ingredient-input">I can't eat</label>
+                <button id="danger-filter-new-row" class="btn btn-info">Add</button>
+                <button id="danger-filter-remove-row" class="btn btn-secondary">Remove</button>
 
-                <div id="filter-node">
-                    <input type="text" class="filter-input form-control">
+                <div id="danger-filter-node">
+                    <input type="text" class="danger-filter-input form-control">
+                </div>
+            </div>
+
+            <div id="warning-form" class="form-group">
+                <label for="ingredient-input">I don't eat</label>
+                <button id="warning-filter-new-row" class="btn btn-info">Add</button>
+                <button id="warning-filter-remove-row" class="btn btn-secondary">Remove</button>
+
+                <div id="warning-filter-node">
+                    <input type="text" class="warning-filter-input form-control">
                 </div>
             </div>
             <input type="submit" class="control-btn btn btn-primary">
