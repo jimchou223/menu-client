@@ -3,12 +3,12 @@
 }
 
 .wrapper {
-  width: 80%;
+  width: 50%;
   margin: auto;
 }
 
 .wrapper-for-input {
-  width: 60%;
+  width: 50%;
   margin: auto;
 }
 
@@ -46,6 +46,7 @@ input {
   margin-top: 1em;
   width: 70%;
   display: inline-block;
+
 }
 
 .detail {
